@@ -43,7 +43,7 @@ const Hero = () => {
             />
             <div className="bg-white rounded-lg shadow-md m-3 text-center w-44 p-4 absolute bottom-2 md:bottom-10 lg:bottom-20 left-2 md:left-5">
               <span className="text-3xl font-bold mb-0 text-primary ">
-                5000+
+                5,000+
               </span>
               <h6 className="text-md text-slate-400 mt-1">Reviews</h6>
             </div>
