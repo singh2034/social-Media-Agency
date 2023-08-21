@@ -48,8 +48,8 @@ const Navbar = () => {
       >
         <div className="w-[89%] m-auto max-width-[1400px] flex justify-between items-center">
           <a href="/">
-            <h1 className="text-3xl font-bold text-primary cursor-default">
-              Imagine
+            <h1 className="text-3xl font-bold text-primary hover:-translate-y-1 transition duration-200">
+              Cascade
             </h1>
           </a>
 
@@ -60,35 +60,35 @@ const Navbar = () => {
                 : "hidden"
             }`}
           >
-            <li className="hover:-translate-y-1 transition duration-200">
+            <li className="hover:-translate-y-1 transition duration-500">
               <a href="/" onClick={() => setOpenMobileMenu(false)}>
                 Home
               </a>
             </li>
-            <li className="hover:-translate-y-1 transition duration-200">
+            <li className="hover:-translate-y-1 transition duration-500">
               <a href="#about" onClick={() => setOpenMobileMenu(false)}>
                 About
               </a>
             </li>
-            <li className="hover:-translate-y-1 transition duration-200">
+            <li className="hover:-translate-y-1 transition duration-500">
               <a href="#price" onClick={() => setOpenMobileMenu(false)}>
                 Pricing
               </a>
             </li>
-            <li className="hover:-translate-y-1 transition duration-200">
+            <li className="hover:-translate-y-1 transition duration-500">
               <a href="#contact" onClick={() => setOpenMobileMenu(false)}>
                 Contact
               </a>
             </li>
           </ul>
           <div className="flex gap-4 text-white items-center ml-auto md:ml-0">
-            <div className="bg-primary p-1 rounded-full hover:translate-y-[-2px] transition-all cursor-pointer">
+            <div className="bg-primary p-1 rounded-full hover:-translate-y-2 transition-all cursor-pointer">
               <AiFillFacebook />
             </div>
-            <div className="bg-primary p-1 rounded-full hover:translate-y-[-2px] transition-all cursor-pointer">
+            <div className="bg-primary p-1 rounded-full hover:-translate-y-2 transition-all cursor-pointer">
               <AiFillInstagram />
             </div>
-            <div className="bg-primary p-1 rounded-full hover:translate-y-[-2px] transition-all cursor-pointer">
+            <div className="bg-primary p-1 rounded-full hover:-translate-y-2 transition-all cursor-pointer">
               <AiOutlineTwitter />
             </div>
           </div>
