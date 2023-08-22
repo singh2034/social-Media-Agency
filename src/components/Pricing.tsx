@@ -54,14 +54,6 @@ const Pricing = () => {
                   <div className="text-primary">
                     <AiFillCheckCircle size={25} />
                   </div>
-                  <span className="text-md text-gray-500">
-                    1 Users Available
-                  </span>
-                </li>
-                <li className="flex items-center gap-[5px] mb-[17px]">
-                  <div className="text-primary">
-                    <AiFillCheckCircle size={25} />
-                  </div>
                   <span className="text-md text-gray-500">1 Email Account</span>
                 </li>
                 <li className="flex items-center gap-[5px] mb-[17px]">
@@ -74,7 +66,7 @@ const Pricing = () => {
                 </li>
               </ul>
               <a
-                href="https://api.whatsapp.com/send?phone=9958721272"
+                href="https://api.whatsapp.com/send?phone=8447715941"
                 className="py-[11px] px-[22px] rounded-md bg-primary text-white font-bold duration-300 hover:bg-strong"
               >
                 Enquire
@@ -109,14 +101,7 @@ const Pricing = () => {
                     Limited Google Ads
                   </span>
                 </li>
-                <li className="flex items-center gap-[5px] mb-[17px]">
-                  <div className="text-primary">
-                    <AiFillCheckCircle size={25} />
-                  </div>
-                  <span className="text-md text-gray-500">
-                    3 Users Available
-                  </span>
-                </li>
+
                 <li className="flex items-center gap-[5px] mb-[17px]">
                   <div className="text-primary">
                     <AiFillCheckCircle size={25} />
@@ -133,7 +118,7 @@ const Pricing = () => {
                 </li>
               </ul>
               <a
-                href="https://api.whatsapp.com/send?phone=9958721272"
+                href="https://api.whatsapp.com/send?phone=8447715941"
                 className="py-[11px] px-[22px] rounded-md bg-primary text-white font-bold duration-300 hover:bg-strong"
               >
                 Enquire
@@ -173,14 +158,7 @@ const Pricing = () => {
                     Limited Google & Meta Ads
                   </span>
                 </li>
-                <li className="flex items-center gap-[5px] mb-[17px]">
-                  <div className="text-[#C8FFE0]">
-                    <AiFillCheckCircle size={25} />
-                  </div>
-                  <span className="text-md text-white font-semibold">
-                    10 Users Available
-                  </span>
-                </li>
+
                 <li className="flex items-center gap-[5px] mb-[17px]">
                   <div className="text-[#C8FFE0]">
                     <AiFillCheckCircle size={25} />
@@ -242,14 +220,7 @@ const Pricing = () => {
                     Unlimited Google & Meta Ads
                   </span>
                 </li>
-                <li className="flex items-center gap-[5px] mb-[17px]">
-                  <div className="text-primary">
-                    <AiFillCheckCircle size={25} />
-                  </div>
-                  <span className="text-md text-gray-500">
-                    Unlimited Users Available
-                  </span>
-                </li>
+
                 <li className="flex items-center gap-[5px] mb-[17px]">
                   <div className="text-primary">
                     <AiFillCheckCircle size={25} />

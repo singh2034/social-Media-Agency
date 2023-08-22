@@ -42,9 +42,7 @@ const Hero = () => {
               className="w-full lg:h-[550px] h-[450px] object-cover"
             />
             <div className="bg-white rounded-lg shadow-md m-3 text-center w-44 p-4 absolute bottom-2 md:bottom-10 lg:bottom-20 left-2 md:left-5">
-              <span className="text-3xl font-bold mb-0 text-primary ">
-                5,000+
-              </span>
+              <span className="text-3xl font-bold mb-0 text-primary ">9+</span>
               <h6 className="text-md text-slate-400 mt-1">Reviews</h6>
             </div>
             <div className="absolute right-0 top-5 md:top-10 md:right-0 lg:right-10 p-4 w-44 rounded-lg shadow-md bg-white m-3 text-center ">

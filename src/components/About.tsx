@@ -8,62 +8,52 @@ const About = () => {
         <div className="grid grid-cols-1 flex-1 gap-[30px] md:grid-cols-2 xl-:gap-y-[70px]">
           <div>
             <h1 className="font-bold md:text-[45px] md:leading-[52px] text-[35px] leading-[42px] mb-1 text-primary ">
-              10,000+
+              5+
             </h1>
             <p className="mb-3 font-bold text-gray-600">Satisfied Clients.</p>
             <p className="text-gray-600 font-semibold">
-              "Trailblazing Excellence for Over 8 Years: As a trusted leader in
-              the realm of social media, our legacy shines with a proven track
-              record and 10,000+ delighted clients. At our agency, we've
-              cultivated seasoned expertise, mastering the art of digital
-              engagement. With every campaign, we craft not just content, but
-              captivating narratives that resonate in the dynamic landscape of
-              social media."
+              "Newcomers in the market, we're committed to delivering top-notch
+              services and excellence. With 5 completed projects, we craft
+              engaging narratives for effective social media outcomes in the
+              evolving landscape."
             </p>
           </div>
           <div>
             <h1 className="font-bold md:text-[45px] md:leading-[52px] text-[35px] leading-[42px] mb-1 text-primary ">
-              100+
+              3+
             </h1>
             <p className="mb-3 font-bold text-gray-600">Skilled Employees</p>
             <p className="text-gray-600 font-semibold">
-              "Strength in Numbers: Our agency thrives with a powerhouse team of
-              100+ skilled professionals. Each individual's expertise combines
-              to craft innovative strategies that drive unparalleled results.
-              From creative minds to analytical wizards, we're your trusted
-              partners in navigating the dynamic world of digital engagement."
+              "Thriving with a team of just 3+ members, we're fiercely
+              competitive. Our compact yet skilled squad crafts innovative
+              strategies for impactful outcomes in digital engagement. Count on
+              us for creative and analytical excellence."
             </p>
           </div>
           <div>
             <h1 className="font-bold md:text-[45px] md:leading-[52px] text-[35px] leading-[42px] mb-1 text-primary ">
-              3000+
+              5+
             </h1>
             <p className="mb-3 font-bold text-gray-600">Projects Completed</p>
             <p className="text-gray-600 font-semibold">
-              "3000+ Projects, Infinite Impact: Our agency's journey is marked
-              by a remarkable achievement – successfully completing over 3000
-              projects. With each endeavor, we've honed our expertise,
-              diversified our skills, and amplified our clients' success. This
-              milestone underscores our commitment to excellence and innovation,
-              driving us to forge ahead in shaping impactful narratives and
-              delivering results that resonate in the digital landscape."
+              "5+ Projects, Impressive Impact: Despite a small start, our work
+              has garnered attention. Our quality has attracted more clients due
+              to impactful services. Companies and individuals are drawn to our
+              expertise, fostering interest in our offerings."
             </p>
           </div>
-          <div>
+          {/* <div>
             <h1 className="font-bold md:text-[45px] md:leading-[52px] text-[35px] leading-[42px] mb-1 text-primary ">
-              10
+              5+
             </h1>
             <p className="mb-3 font-bold text-gray-600">Locations World Wide</p>
             <p className="text-gray-600 font-semibold">
-              "From India to Worldwide Impact: Rooted in India and reaching
-              across 10+ global locations, our agency marries local insights
-              with international influence. With a legacy of 3000+ projects,
-              we've honed our expertise to craft impactful narratives that
-              transcend borders. Beyond being a company, we're a global force,
-              dedicated to driving innovation and success across continents and
-              industries."
+              "Indian Roots, Emerging Global Reach: Hailing from New Delhi,
+              we're poised to extend our impact beyond India. With 5+ projects
+              under our belt, we're venturing into international markets,
+              marrying local insights with global aspirations."
             </p>
-          </div>
+          </div> */}
         </div>
         {/* Righht Side */}
         <div className="flex-1">
@@ -95,7 +85,6 @@ const About = () => {
               </div>
               <span className="text-md text-gray-500">Recieve Updates</span>
             </div>
-            
           </div>
         </div>
       </div>
