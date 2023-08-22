@@ -31,7 +31,7 @@ const Footer = () => {
               <ul className="list-none space-y-3">
                 <li>
                   <a href="#" className="hover:text-gray-300">
-                    Home
+                    Cascade Organizers
                   </a>
                 </li>
                 <li>
@@ -106,6 +106,12 @@ const Footer = () => {
             </div>
           </div>
         </div>
+      </div>
+      {/* copyright section */}
+      <div className="flex justify-center pb-3 text-white font-bold text-lg items-center md:text-xl sm:items-center">
+        <p>
+          CascadeMedia &copy;{new Date().getFullYear()} | All rights reserved
+        </p>
       </div>
     </footer>
   );
