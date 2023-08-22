@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Pricing from "./components/Pricing";
+import ScrollToTop from "react-scroll-to-top";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Pricing />
       <Contact />
       <Footer />
+      <ScrollToTop className="rounded-full p-[5px]" smooth color="#f88" />
     </>
   );
 };
