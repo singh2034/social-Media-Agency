@@ -63,15 +63,15 @@ const Contact = () => {
                       className="w-full py-2 px-3 border rounded h-10 outline-none bg-transparent focus:border-strong text-[15px]"
                     />
                   </div>
-                  <div className="lg:col-span-6 mb-10">
-                    <input
-                      type="number"
-                      name="number"
-                      autoComplete="off"
-                      placeholder="Your Number!"
-                      className="w-full py-2 px-3 border rounded h-10 outline-none bg-transparent focus:border-strong text-[15px]"
-                    />
-                  </div>
+                </div>
+                <div className="lg:col-span-6 mb-10">
+                  <input
+                    type="number"
+                    name="number"
+                    autoComplete="off"
+                    placeholder="Your Contact Number!"
+                    className="w-full py-2 px-3 border rounded h-10 outline-none bg-transparent focus:border-strong text-[15px]"
+                  />
                 </div>
                 <div className="grid grid-cols-1">
                   <div className="mb-10">
