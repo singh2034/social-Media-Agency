@@ -21,13 +21,13 @@ const Hero = () => {
             </p>
             <div className="flex gap-4 mt-6 justify-center md:justify-start">
               <a
-                href="/"
+                href="#price"
                 className="duration-300 hover:bg-[#f88] hover:text-white py-2 px-6 rounded text-gray-700 shadow-lg drop-shadow bg-primary "
               >
                 Pricing
               </a>
               <a
-                href="/"
+                href="https://api.whatsapp.com/send?phone=9958721272"
                 className="duration-300 hover:bg-[#f88] hover:text-white py-2 px-6 rounded text-gray-700 shadow-lg drop-shadow bg-primary "
               >
                 More Info

@@ -5,6 +5,8 @@ import {
   AiFillInstagram,
   AiFillFacebook,
   AiOutlineTwitter,
+  AiFillLinkedin,
+  // AiFillYoutube,
 } from "react-icons/ai";
 
 const Navbar = () => {
@@ -70,27 +72,33 @@ const Navbar = () => {
                 About
               </a>
             </li>
-            <li className="hover:-translate-y-1 transition duration-500">
+            {/* <li className="hover:-translate-y-1 transition duration-500">
               <a href="#price" onClick={() => setOpenMobileMenu(false)}>
                 Pricing
               </a>
-            </li>
+            </li> */}
             <li className="hover:-translate-y-1 transition duration-500">
               <a href="#contact" onClick={() => setOpenMobileMenu(false)}>
                 Contact
               </a>
             </li>
           </ul>
-          <div className="flex gap-4 text-white items-center ml-auto md:ml-0">
-            <div className="bg-primary p-1 rounded-full hover:-translate-y-2 transition-all cursor-pointer">
+          <div className="flex gap-2 text-white items-center ml-auto md:ml-0">
+            <div className="bg-primary p-1 rounded-full hover:-translate-y-[4px] transition-all cursor-pointer">
               <AiFillFacebook />
             </div>
-            <div className="bg-primary p-1 rounded-full hover:-translate-y-2 transition-all cursor-pointer">
+            <div className="bg-primary p-1 rounded-full hover:-translate-y-[4px] transition-all cursor-pointer">
               <AiFillInstagram />
             </div>
-            <div className="bg-primary p-1 rounded-full hover:-translate-y-2 transition-all cursor-pointer">
+            <div className="bg-primary p-1 rounded-full hover:-translate-y-[4px] transition-all cursor-pointer">
               <AiOutlineTwitter />
             </div>
+            <div className="bg-primary p-1 rounded-full hover:-translate-y-[4px] transition-all cursor-pointer">
+              <AiFillLinkedin />
+            </div>
+            {/* <div className="bg-primary p-1 rounded-full hover:-translate-y-[4px] transition-all cursor-pointer">
+              <AiFillYoutube />
+            </div> */}
           </div>
           <div className="md:hidden ml-4" onClick={handleMobileMenu}>
             {!openMobileMenu ? <FiMenu /> : <MdClose />}
