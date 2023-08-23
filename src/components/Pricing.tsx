@@ -142,7 +142,7 @@ const Pricing = () => {
                 </span>
               </div>
               <h5 className="text-2xl text-white font-bold mb-[9px]">
-                Cosmic Cascade
+               Cosmicade
               </h5>
               <p className="text-sm font-bold text-gray-800 mb-[43px]">
                 Our most selling plan with the best features and perks

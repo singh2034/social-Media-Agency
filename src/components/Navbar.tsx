@@ -3,10 +3,10 @@ import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
 import {
   AiFillInstagram,
-  AiFillFacebook,
+  // AiFillFacebook,
   AiOutlineTwitter,
   AiFillLinkedin,
-  // AiFillYoutube,
+  AiFillYoutube,
 } from "react-icons/ai";
 
 const Navbar = () => {
@@ -50,8 +50,8 @@ const Navbar = () => {
       >
         <div className="w-[89%] m-auto max-width-[1400px] flex justify-between items-center">
           <a href="/">
-            <h1 className="text-3xl font-bold text-primary hover:-translate-y-1 transition duration-200">
-              Cascade
+            <h1 className="text-2xl font-bold text-primary hover:-translate-y-1 transition duration-200">
+              Cosmicade
             </h1>
           </a>
 
@@ -84,21 +84,47 @@ const Navbar = () => {
             </li>
           </ul>
           <div className="flex gap-2 text-white items-center ml-auto md:ml-0">
-            <div className="bg-primary p-1 rounded-full hover:-translate-y-[4px] transition-all cursor-pointer">
-              <AiFillFacebook />
-            </div>
-            <div className="bg-primary p-1 rounded-full hover:-translate-y-[4px] transition-all cursor-pointer">
-              <AiFillInstagram />
-            </div>
-            <div className="bg-primary p-1 rounded-full hover:-translate-y-[4px] transition-all cursor-pointer">
-              <AiOutlineTwitter />
-            </div>
-            <div className="bg-primary p-1 rounded-full hover:-translate-y-[4px] transition-all cursor-pointer">
-              <AiFillLinkedin />
-            </div>
             {/* <div className="bg-primary p-1 rounded-full hover:-translate-y-[4px] transition-all cursor-pointer">
-              <AiFillYoutube />
+              <a href="" target="_blank" rel="noreferrer">
+                <AiFillFacebook />
+              </a>
             </div> */}
+            <div className="bg-primary p-1 rounded-full hover:-translate-y-[4px] transition-all cursor-pointer">
+              <a
+                href="https://www.instagram.com/cosmicade5173/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <AiFillInstagram />
+              </a>
+            </div>
+            <div className="bg-primary p-1 rounded-full hover:-translate-y-[4px] transition-all cursor-pointer">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://twitter.com/cosmicade5173"
+              >
+                <AiOutlineTwitter />
+              </a>
+            </div>
+            <div className="bg-primary p-1 rounded-full hover:-translate-y-[4px] transition-all cursor-pointer">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.linkedin.com/company/cosmiccascade-media-agency/"
+              >
+                <AiFillLinkedin />
+              </a>
+            </div>
+            <div className="bg-primary p-1 rounded-full hover:-translate-y-[4px] transition-all cursor-pointer">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.youtube.com/channel/UCU37z9fjHODbpnirjQ_v8cw"
+              >
+                <AiFillYoutube />
+              </a>
+            </div>
           </div>
           <div className="md:hidden ml-4" onClick={handleMobileMenu}>
             {!openMobileMenu ? <FiMenu /> : <MdClose />}

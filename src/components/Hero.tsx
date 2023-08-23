@@ -12,7 +12,7 @@ const Hero = () => {
               Welcome To
             </h2>
             <h1 className="text-white text-6xl font-bold drop-shadow-lg mb-3">
-              Cascade Media
+              Cosmicade Media
             </h1>
             <p className="text-gray-500 font-medium my-3">
               Discover limitless growth possibilites through innovative social

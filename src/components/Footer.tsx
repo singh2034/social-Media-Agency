@@ -21,7 +21,7 @@ const Footer = () => {
             <div>
               <a href="">
                 <h1 className="text-3xl drop-shadow text-white font-bold text-center">
-                  Cascade Media
+                  Cosmicade Media
                 </h1>
               </a>
               <span>Where Dreams Comes True</span>
@@ -110,7 +110,7 @@ const Footer = () => {
       {/* copyright section */}
       <div className="flex justify-center pb-3 text-white font-bold text-lg items-center md:text-xl sm:items-center">
         <p>
-          CascadeMedia &copy;{new Date().getFullYear()} | All rights reserved
+          Cosmicade Media &copy;{new Date().getFullYear()}. All rights reserved
         </p>
       </div>
     </footer>
