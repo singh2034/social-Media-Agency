@@ -108,9 +108,9 @@ const Footer = () => {
         </div>
       </div>
       {/* copyright section */}
-      <div className="flex justify-center pb-3 text-white font-bold text-lg items-center md:text-xl sm:items-center">
+      <div className="flex justify-center pb-3 text-white font-bold text-lg text-center items-center md:text-xl sm:items-center">
         <p>
-          Cosmicade Media &copy;{new Date().getFullYear()}. All rights reserved
+          Cosmicade Media &copy;{new Date().getFullYear()} | All Rights Reserved
         </p>
       </div>
     </footer>
