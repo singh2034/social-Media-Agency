@@ -91,7 +91,7 @@ const Navbar = () => {
             </div> */}
             <div className="bg-primary p-1 rounded-full hover:-translate-y-[4px] transition-all cursor-pointer">
               <a
-                href="https://www.instagram.com/cosmicade5173/"
+                href="https://www.instagram.com/cosmicademedia/"
                 target="_blank"
                 rel="noreferrer"
               >
